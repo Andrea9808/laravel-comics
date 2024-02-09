@@ -1,7 +1,19 @@
 @extends('layouts.main-layout')
 @section('head')
-    <title>Home</title>
+    <title>COMICS DC</title>
 @endsection
 @section('content')
-    <h1>Hello, World!</h1>
+    <div class="container-fluid">
+        <div class="bg_main">
+            <div class="container">
+                <label class="text-white" for="CURRENT SERIES">CURRENT SERIES</label>
+
+                @foreach ($comics as $comic )
+                    <div class="card">
+                        <img src="{{($comic["thumb"])}}" alt="comic">
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </div>
 @endsection

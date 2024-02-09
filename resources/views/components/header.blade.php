@@ -15,7 +15,11 @@
                 </div>
 
                 <div class="text_header">
-                    {{-- character. comics,movies ecc.. --}}
+                    <ul>
+                        @foreach ($links as $link)
+                            <li class="{{ $link['status'] ? 'stop_link' : '' }}">{{$link['text']}}</li>
+                        @endforeach
+                    </ul>
                 </div>
 
                 <div class="search">

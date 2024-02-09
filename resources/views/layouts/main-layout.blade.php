@@ -13,6 +13,7 @@
 <body>
     <div>
         @include('components.header')
+        @include('components.jambo')
         @yield('content')
         @include('components.footer')
     </div>
