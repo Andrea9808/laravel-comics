@@ -71,3 +71,78 @@ header{
 
 }
 
+//SHOP
+
+.bg_shop{
+    background-color: blue;
+    height: 100px;
+
+    img{
+        width: 40px;
+    }
+
+    span{
+        font-size: 10px;
+    }
+
+    .card_shop{
+        margin: 20px auto;
+    }
+}
+
+//FOOTER
+
+.bg_footer{
+    background-image:url("~res/imgs/footer-bg.jpg");
+    background-size: cover;
+
+    h5 {
+        color: white;
+        font-size: 15px;
+        padding: 10px 0;
+        margin-bottom: 10px;
+    }
+
+    a {
+        color: gray;
+        font-size: 14px;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    ul{
+        padding: 0;
+
+        li {
+            list-style-type: none;
+        }
+
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        .navbar_footer {
+            margin: 20px 0;
+            display: flex;
+        }
+
+        .link{
+            margin-right: 20px;
+        }
+    }
+
+    .logo_bg{
+        background-image: url("~res/imgs/dc-logo-bg.png");
+        width: 43%;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+
+
