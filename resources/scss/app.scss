@@ -69,13 +69,20 @@ header{
         color: white;
     }
 
+    button{
+        background-color: blue;
+        border: none;
+        padding: 20px 50px;
+        color: white;
+        margin-bottom: 20px;
+    }
+
 }
 
 //SHOP
 
 .bg_shop{
     background-color: blue;
-    height: 100px;
 
     img{
         width: 40px;
@@ -86,7 +93,7 @@ header{
     }
 
     .card_shop{
-        margin: 20px auto;
+        margin: 30px auto;
     }
 }
 
@@ -111,6 +118,12 @@ header{
         &:hover {
             text-decoration: underline;
         }
+
+    }
+
+    p{
+        color: gray;
+        font-size: 14px;
     }
 
     ul{

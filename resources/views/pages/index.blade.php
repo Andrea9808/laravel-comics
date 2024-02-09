@@ -19,6 +19,10 @@
                             </div>
                         </div>
                     @endforeach
+
+                    <div class="text-center">
+                        <button>LOAD MORE</button>
+                    </div>
                 </div>
 
             </div>
