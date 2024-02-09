@@ -1,3 +1,22 @@
 @import "~bootstrap/scss/bootstrap";
 
+// HEADER
+header{
+    .bg{
+        background-color: #4e4ef6;
+    }
 
+    input{
+        text-align: end;
+        border: none;
+        border-bottom: 2px solid blue;
+        margin-right: -30px;
+        padding-right: 33px;
+        width: 130px;
+    }
+
+    img{
+        width: 70px;
+        padding: 15px 0;
+    }
+}
