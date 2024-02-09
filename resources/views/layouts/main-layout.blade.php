@@ -15,6 +15,7 @@
         @include('components.header')
         @include('components.jambo')
         @yield('content')
+        @include('components.shop')
         @include('components.footer')
     </div>
 </body>
