@@ -157,5 +157,32 @@ header{
     }
 }
 
+//SOCIAL
+
+.bg_social{
+    background-color: rgb(29, 27, 27);
+
+    ul{
+        list-style: none;
+
+        li{
+            display: inline;
+            margin-left: 15px;
+        }
+    }
+
+    .row{
+        height: 100px;
+    }
+
+    button{
+        background-color: transparent;
+        color: white;
+        border: 1px solid blue;
+        padding: 10px 40px;
+    }
+
+}
+
 
 

@@ -285,7 +285,31 @@ Route::get('/', function () {
 
     ];
 
-    return view('pages.index', compact("links","comics","shops"));
+
+    $socials = [
+        [
+            "img" => "resources/imgs/footer-facebook.png",
+            "url" => "#",
+        ],
+        [
+            "img" => "resources/imgs/footer-periscope.png",
+            "url" => "#",
+        ],
+        [
+            "img" => "resources/imgs/footer-pinterest.png",
+            "url" => "#",
+        ],
+        [
+            "img" => "resources/imgs/footer-twitter.png",
+            "url" => "#",
+        ],
+        [
+            "img" => "resources/imgs/footer-youtube.png",
+            "url" => "#",
+        ],
+    ];
+
+    return view('pages.index', compact("links","comics","shops","socials"));
 });
 
 

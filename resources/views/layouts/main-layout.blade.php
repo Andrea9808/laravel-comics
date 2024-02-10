@@ -17,6 +17,7 @@
         @yield('content')
         @include('components.shop')
         @include('components.footer')
+        @include('components.social')
     </div>
 </body>
 </html>
